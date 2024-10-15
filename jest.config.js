@@ -10,6 +10,6 @@ module.exports = {
   resetMocks: true,
   moduleDirectories: ['node_modules', '<rootDir>/src'],
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.ts?$': '@swc/jest',
   },
 };
