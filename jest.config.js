@@ -6,10 +6,10 @@ module.exports = {
   moduleNameMapper: {
     '^axios$': require.resolve('axios'),
   },
-  restoreMocks: true,
-  resetMocks: true,
+  restoreMocks: false,
+  resetMocks: false,
   moduleDirectories: ['node_modules', '<rootDir>/src'],
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.ts?$': '@swc/jest',
   },
 };
